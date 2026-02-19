@@ -1,0 +1,23 @@
+Cas 1: a=1 b=-3 c=2 → [1.0, 2.0]
+Discriminant positif (9-8=1), 2 racines réelles distinctes
+
+Cas 2: a=1 b=-2 c=1 → [1.0]
+Discriminant nul (4-4=0), racine double
+
+Cas 3: a=1 b=1 c=1 → ValueError "Pas de racines réelles"
+Discriminant négatif (1-4=-3), pas de solution réelle
+
+Cas 4: a=0 b=2 c=3 → ValueError "Pas une équation quadratique"
+a=0, équation linéaire (pas quadratique)
+
+Cas 5: a=1 b=0 c=-1 → [-1.0, 1.0]
+Racines symétriques (b=0), discriminant positif
+
+Cas 6: a=-1 b=0 c=-1 → [-1.0, 1.0]
+a négatif (parabole descendante), 2 racines
+
+Cas 7: a=2 b=3 c=1 → [-1.302775637731994, -0.6972243622680058]
+Racines irrationnelles (disc=1), triées correctement
+
+Cas 8: a=1 b=4 c=4 → [-2.0]
+Discriminant nul avec b positif
